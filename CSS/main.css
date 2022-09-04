@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ a {
+    text-decoration: none;
+    color: #a7a7a7;
+ }
+
+html {
+    font-family: 'Open Sans', sans-serif;
+ }
+
+ /* Navbar section */
+ #navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.75rem;
+    height: 70px;
+    align-items: center;
+ }
+ #navbar ul {
+    list-style-type: none;
+    display: flex;
+ }
+ #navbar ul li a {
+    padding: 0.5rem;
+ }
+ #navbar ul li a:hover {
+   background: #336ea2;
+   border-radius: 4px;
+}
+
+/* Home section */
+
+#home {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 2rem;
+   border-bottom: 1px solid gray;
+}
+#home img {
+   max-width: 300px;
+   height: auto;
+   border-radius: 100%;
+}
+#home .name {
+   text-align: center;
+}
+#home .name  h2 {
+   margin-bottom: 0.5rem;
+}
+#home .name p {
+   opacity: 0.5;
+   font-style: italic;
+}
+
+/* #home  a {
+   margin-top: 1.25rem;
+   background: #336ea2;
+   padding: 0.8rem 3rem;
+   color: white;
+   border-radius: 7px   ;
+   letter-spacing: 1px;
+}
+
+#home a:hover {
+   color: #336ea2;
+   background: white;  
+   border: 1px solid #336ea2;
+   
+} */
+
+/* Training Section */
+
+#training {
+   color: white;
+   padding: 0.75rem;
+   
+}
+#training .items {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#training .items .item {
+   text-align: center;
+   width: 33%;
+   padding: 0.5rem;
+}
+#training .items .item:hover {
+   color: red;
+   opacity: 0.8;
+}
+
+/* Courses section */
+
+.pythonImg {
+   width: 300px;
+  height: 150px;
+  object-fit: cover;
+  padding: 3rem;
+}
+
+.javaImg {
+   width: 300px;
+   height: 150px;
+   object-fit: cover;
+   padding: 0rem 1.5rem;
+}
+
+.javascriptImg {
+   width: 300px;
+   height: 150px;
+   object-fit: cover;
+   padding: 0.2rem 4rem
+}
+
+/* ******************************************************** */
+
+#Courses {
+   color: #333;
+   padding: 1rem;
+}
+
+.Courses {
+   display: flex;
+   flex-direction: column;
+   padding: 1rem;
+   width: 100%;
+}
+
+.Courses .Course {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   padding: 0.5rem;
+   margin-bottom: 0.5rem;
+}
+
+.discount {
+   position: absolute;
+   left: 0;
+}
+
+.course-image {
+   position: relative;
+}
+
+.Courses .Course .course-image {
+  margin-right: 0.5rem;
+  position: relative;
+}
+
+.Courses .Course .course-image img {
+   border-radius: 10px;
+}
+
+.Courses .Course .course-image span {
+   background-color:red;
+   padding: 0.3rem;
+   color: #fff;
+   border-radius: 5px;
+   position: absolute;
+   top: 10px;
+   left: 0;
+}
+
+.Courses .Course .course-info .title {
+   letter-spacing: 1px;
+   font-weight: 700;
+   margin-bottom: 0.25rem;
+}
+
+.Courses .Course .course-info .description {
+   margin-bottom: 0.25rem;
+    letter-spacing: 0.7px;
+   opacity: 0.6;
+}
+
+
+/* Contact */
+
+#contact {
+   color: #fff;
+   padding: 1rem;
+}
+
+#contact .contact-form {
+   max-width: 700px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+}
+/* footer submit edit */
+.submittt {
+   width: 100%;
+   text-align: center;
+}
+/*  */
+
+#contact .contact-form ul {
+   list-style-type: none;
+   display: flex;
+   align-self: center;
+   margin-top: 1rem;
+}
+
+#contact .contact-form ul  li a {
+   font-size: 2rem;
+   padding: 1rem;
+}
+
+#contact .contact-form ul  li a:hover {
+   opacity: 0.8;
+}
